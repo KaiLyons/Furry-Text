@@ -12,7 +12,6 @@ public class SyncSample : Window {
         this.window_position = WindowPosition.CENTER;
         this.set_default_size (500,  50);
         destroy.connect (Gtk.main_quit);
-        icon = new Gdk.Pixbuf.from_file("icon.png");
 
         var label = new Label("That Stupid Python Game I made but In Vala");
         var entry = new Entry();
